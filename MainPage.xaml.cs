@@ -92,5 +92,10 @@ namespace sl_Storage
                 store.IncreaseQuotaTo(store.Quota + 1024 + 1024);
             }
         }
+        private void btnNotify_Click(object sender , RoutedEventArgs s) {
+            var nw = new NotificationWindow();
+            nw.Content = new MainPage();
+            nw.Show(5000);
+         }
     }
 }

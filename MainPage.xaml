@@ -20,6 +20,7 @@
             <Button Content="Save"   Click="btnSave_Click" />
             <Button Content="Clear"  Click="btnClear_Click" />
             <Button Content="Extend" Click="btnExtend_Click" />
+            <Button Content="Notify" Click="btnNotify_Click" />
         </StackPanel>
     </StackPanel>
 </UserControl>
