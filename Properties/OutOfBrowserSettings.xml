@@ -1,0 +1,7 @@
+<OutOfBrowserSettings ShortName="sl_Storage アプリケーション" EnableGPUAcceleration="False" ShowInstallMenuItem="True">
+  <OutOfBrowserSettings.Blurb>デスクトップの sl_Storage アプリケーションを、自宅でも、職場でも、外出先でも利用できます。</OutOfBrowserSettings.Blurb>
+  <OutOfBrowserSettings.WindowSettings>
+    <WindowSettings Title="sl_Storage アプリケーション" />
+  </OutOfBrowserSettings.WindowSettings>
+  <OutOfBrowserSettings.Icons />
+</OutOfBrowserSettings>
