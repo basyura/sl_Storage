@@ -65,8 +65,7 @@ namespace sl_Storage
             IsolatedStorageSettings.ApplicationSettings.Remove("MyMessage");
             IsolatedStorageSettings.ApplicationSettings.Remove("MyFlag");
         }
-        private void btnChoose_Click(object sender, RoutedEventArgs e)
-        {
+        private void btnChoose_Click(object sender, RoutedEventArgs e) {
             var dlg = new OpenFileDialog();
             dlg.Filter = "Image files(*.jpg,*.png,)|*.jpg;*.png";
             if(dlg.ShowDialog() == true) {
@@ -86,6 +85,11 @@ namespace sl_Storage
                     }
                 }
                 LoadIcon();
+            }
+        }
+        private void btnExtend_Click(object sender, RoutedEventArgs s) {
+            using (var store = IsolatedStorageFile.GetUserStoreForApplication()) {
+                store.IncreaseQuotaTo(store.Quota + 1024 + 1024);
             }
         }
     }

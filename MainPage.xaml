@@ -17,8 +17,9 @@
         <TextBox x:Name="textMessage" />
         <CheckBox x:Name="checkFlag" Content="Flag" />
         <StackPanel Orientation="Horizontal">
-            <Button Content="Save"  Click="btnSave_Click" />
-            <Button Content="Clear" Click="btnClear_Click" />
+            <Button Content="Save"   Click="btnSave_Click" />
+            <Button Content="Clear"  Click="btnClear_Click" />
+            <Button Content="Extend" Click="btnExtend_Click" />
         </StackPanel>
     </StackPanel>
 </UserControl>
